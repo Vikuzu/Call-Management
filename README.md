@@ -1,2 +1,2 @@
-# Contact-Management
-Menu Based application on Contact Management
+# Contacts Management Application
+A menu-driven application for managing multiple contacts of multiple users
