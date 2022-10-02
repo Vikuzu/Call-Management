@@ -3,19 +3,19 @@ A menu-driven application for managing multiple contacts of multiple users
 
 # Directory Structure
 1) Cut
-     i) Code
-          a) Bin: Contains executable file.
-          b) Data: Contains input data file.
-          c) Header: Contains all header files.
-          d) Make: Contains Makefile.
-          e) Obj: Contains compiled object files.
-          f) SRC: Contains source code.
-    ii) CodeInspectionLog
-   iii) ToolsReport
-          a) CUnit: Contains Unit Testing Report
-          b) Splint
-          c) Valgrind
-    iv) UT&ITReport
+     1) Code
+          1) Bin: Contains executable file.
+          2) Data: Contains input data file.
+          3) Header: Contains all header files.
+          4) Make: Contains Makefile.
+          5) Obj: Contains compiled object files.
+          6) SRC: Contains source code.
+     2) CodeInspectionLog
+     3) ToolsReport
+          1) CUnit: Contains Unit Testing Report
+          2) Splint
+          3) Valgrind
+     4) UT&ITReport
 2) Design: Contains Code & Design Review Checklist Documents and Pseudocodes.
 3) Plan: Contains Minutes of Meetings & Sprint Schedule.
 4) RTM: Contains Requirement Tracibility Matrix Document.
