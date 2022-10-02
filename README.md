@@ -19,4 +19,3 @@ A menu-driven application for managing multiple contacts of multiple users
 5) [SRS](https://github.com/Vikuzu/Contact-Management/tree/main/SRS): Contains our SRS {Software Requirement Specification} Document.
 6) [Storyboard](https://github.com/Vikuzu/Contact-Management/tree/main/StoryBoard)
 7) [README.md](https://github.com/Vikuzu/Contact-Management/blob/main/README.md): Introductory file.
-8) 
