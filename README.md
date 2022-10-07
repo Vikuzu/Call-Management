@@ -17,8 +17,7 @@ A menu-driven application for managing multiple contacts of multiple users
 3) [Plan](https://github.com/Vikuzu/Contact-Management/tree/main/PLAN): Contains Minutes of Meetings & Sprint Schedule.
 4) [RTM](https://github.com/Vikuzu/Contact-Management/tree/main/RTM): Contains Requirement Tracibility Matrix Document.
 5) [SRS](https://github.com/Vikuzu/Contact-Management/tree/main/SRS): Contains our SRS {Software Requirement Specification} Document.
-6) [Storyboard](https://github.com/Vikuzu/Contact-Management/tree/main/StoryBoard)
-7) [README.md](https://github.com/Vikuzu/Contact-Management/blob/main/README.md): Introductory file.
+6) [README.md](https://github.com/Vikuzu/Contact-Management/blob/main/README.md): Introductory file.
 
 # Contributors
 1) [Vivek Kumar](https://github.com/Vikuzu)
