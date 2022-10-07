@@ -1,0 +1,5 @@
+b:Mohit|Singh|7200356725|||mohitsh.@gmail.com||Raymond||clothing@raymondindia.in
+p:Rahul|Sharma||||rahul.sh.0015@gmail.com||M-68,Nirman Colony Jaipur|9704136864|15/08/1997|no
+b:Rahul|Sharma|9829444725|||||Hindustan Unilever|Associate Manager|foods@hul.com
+b:Nikhil|Gupta|9864283675|||nikhil@gmail.com||HFCL|Developer|
+p:Pravesh||9660051036|||pravesh@gmail.com||M-53,Mahesh Colony Jaipur|9660051036|10/04/1999|yes
