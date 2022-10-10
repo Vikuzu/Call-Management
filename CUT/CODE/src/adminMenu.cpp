@@ -40,7 +40,7 @@ void admin(string username)
 			while(1){
 				
 				system("clear");
-				cout << "\n  1. add user";
+				cout << "\n\n  1. add user";
 				cout << "\n  2. update user";
 				cout << "\n  3. delete user";
 				cout << "\n  4. display users";
@@ -61,12 +61,14 @@ void admin(string username)
 						a.listUsers(); break;
 					case 5:
 						a.adminLogout(); return;
+					default:
+						cout<<"\n\n  Please choose the correct option...";
 				}
 			}
 		}
 
 		else {
-			cout << "\n\n\tPassword is incorrect...";
+			cout << "\n\n\tPassword is incorrect...\n";
 			cout << "\n\nEnter the password: ";
 			getline(cin, password);
 

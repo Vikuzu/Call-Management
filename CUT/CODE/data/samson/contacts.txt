@@ -1,5 +1,3 @@
-b:Pravesh|Jhanwar|9660051036|||pravesh@gmail.com||India Tea Company|Manager|teas@itc.com
 p:Mohit|Singh|7200356725|||mohitsh.@gmail.com||E-62,Ambabari,Jaipur|9652865683|16/08/2000|no
-p:Nikhil|Gupta|9864283675|||nikhil@gmail.com||E-68,New light colony, Jaipur|7235648632|28/12/1998
+b:Pravesh|Jhanwar|9660051036|||pravesh@gmail.com||India Tea Company|Manager|teas@itc.com
 b:Rahul|Sharma|9829444725|||rahul.sh.0015@gmail.com||Hindustan Unilever|Associate Manager|foods@hul.com
-p:Raghav|Jhanwar|9660871036|||raghav@gmail.com||M-55,Mahesh Colony Jaipur|9668751036|10/04/1999|yes

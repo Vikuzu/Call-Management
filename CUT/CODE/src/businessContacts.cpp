@@ -52,7 +52,7 @@ string Business::getWebsite() {
 
 void Business::displayContacts()
 {
-	cout <<"\n\n  1. First Name    : " << firstName;
+	cout <<"\n\n  1. First Name      : " << firstName;
 	cout <<"\n  2. Last Name       : " << lastName;
 	cout <<"\n  3. Mobile Number 1 : " << phone1;
 	cout <<"\n  4. Mobile Number 2 : " << phone2;
@@ -97,7 +97,10 @@ void Business::addContact()
 		cout <<"\n\nDo you want to add secondary details (y/n)? ";
 		cin >> choice;
 		if(choice == 'y')
+		{
+			system("clear");
 			editContact();
+		}
 		else
 			break;
 	}

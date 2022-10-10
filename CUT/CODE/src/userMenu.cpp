@@ -20,7 +20,7 @@ int checkUser(string username)
 	string str, password, user, pass;
 	int flag = 0;
 	
-	cout << "\nEnter the password: ";
+	cout << "\n\nEnter the password: ";
 	getline(cin, password);
 
 	ifstream f;
@@ -73,7 +73,7 @@ void user(string username)
 			
 			while(1) {
 				system("clear");
-				cout << "\n  1. change password";
+				cout << "\n\n  1. change password";
 				cout << "\n  2. add contact";
 				cout << "\n  3. update contact";
 				cout << "\n  4. delete contact";
@@ -100,6 +100,8 @@ void user(string username)
 						u.listBusinesscontacts(); break;
 					case 7:
 						u.userLogout(username); return;
+					default:
+						cout<<"\n\n  Please choose the correct option...";
 				}
 			}
 		}

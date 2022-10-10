@@ -72,13 +72,13 @@ void TestContactManagement::testcheckAdminforrainycases(void ) {
 }
 
 void TestContactManagement::testcheckContactforsunnycases(void ) {
-    	CPPUNIT_ASSERT(1 == u->checkContact("p:prakash|raj|9834256378|9846572845|9898342567|prakash@gmail.com|surya@gmail.com|Anikkorai, Ooty|8745637854|23/05/2001|yes"));
+    	CPPUNIT_ASSERT(1 == u->checkContact("p:prakash|r|9834256378|9846572845|9898342567|prakash@gmail.com|surya@gmail.com|Anikkorai, Ooty|8745637854|23/05/2001|yes"));
     	CPPUNIT_ASSERT(1 == u->checkContact("p:rahul|s|9834267345|9847582845|9845462567|rahul@gmail.com|rahul2001@gmail.com|Avadi, Chennai|8743457854|12/02/2005|No"));
 }
 
 void TestContactManagement::testcheckContactforrainycases(void ) {
     	CPPUNIT_ASSERT(0 == u->checkContact("p:prakash|r|9834256378|9846572845|9898342567|prakash@gmail.com|surya@gmail.com|Anikkorai, Ooty|8745637854|29/02/2001|yes"));
-    	CPPUNIT_ASSERT(0 == u->checkContact("p:rajesh|krishna|9829386378|9820932845|9898983567|rajesh@gmail.com|surya@gmail.com||8745643564|23/05/2001|yes"));
+    	CPPUNIT_ASSERT(0 == u->checkContact("p:rajesh|r|9829386378|9820932845|9898983567|rajesh@gmail.com|surya@gmail.com||8745643564|23/05/2001|yes"));
 }
 
 void TestContactManagement::testcheckDateforsunnycases(void ) {
