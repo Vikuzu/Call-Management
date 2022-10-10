@@ -12,7 +12,7 @@ A menu-driven application for managing multiple contacts of multiple users
           6) [src](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/src): Contains source code.
      2) [CodeInspectionLog](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CodeInspectionLog)
      3) [ToolsReport](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/ToolsReport)
-     4) [UT&ITReport](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/UT_IT_PLAN_Reports)
+     4) [UT_IT_PLAN_Reports](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/UT_IT_PLAN_Reports)
 2) [DESIGN](https://github.com/Vikuzu/Contact-Management/tree/main/DESIGN): Contains Code & Design Review Checklist Documents and Pseudocodes.
 3) [PLAN](https://github.com/Vikuzu/Contact-Management/tree/main/PLAN): Contains Minutes of Meetings & Sprint Schedule.
 4) [RTM](https://github.com/Vikuzu/Contact-Management/tree/main/RTM): Contains Requirement Tracibility Matrix Document.
