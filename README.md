@@ -4,12 +4,12 @@ A menu-driven application for managing multiple contacts of multiple users
 # Directory Structure
 1) [Cut](https://github.com/Vikuzu/Contact-Management/tree/main/CUT)
      1) [Code](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE)
-          1) [Bin](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/bin): Contains executable file.
-          2) [Data](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/data): Contains input data file.
-          3) [Header](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/header): Contains all header files.
-          4) [Make](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/make): Contains Makefile.
-          5) [Obj](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/obj): Contains compiled object files.
-          6) [SRC](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/src): Contains source code.
+          1) [bin](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/bin): Contains executable file.
+          2) [data](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/data): Contains input data file.
+          3) [header](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/header): Contains all header files.
+          4) [make](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/make): Contains Makefile.
+          5) [obj](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/obj): Contains compiled object files.
+          6) [src](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CODE/src): Contains source code.
      2) [CodeInspectionLog](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/CodeInspectionLog)
      3) [ToolsReport](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/ToolsReport)
      4) [UT&ITReport](https://github.com/Vikuzu/Contact-Management/tree/main/CUT/UT_IT_PLAN_Reports)
