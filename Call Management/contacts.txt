@@ -1,3 +1,0 @@
-p:samsonpaul|m|9499035155|9788875255|9659783155|samson@gmail.com|paul@gmail.com|11-A1, Teachers Colony|8612135269|11/05/2000|yes
-p:hemanth|s|9498135155|9778875155||hemanth@gmail.com||129-A1, Teachers Colony|8610137269|27/08/2002|yes
-b:annamalai|m|9498035155|9788875155|9659785155|samson@gmail.com|paul@gmail.com|capgemini|senior analyst|samson.com
