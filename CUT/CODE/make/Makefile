@@ -21,6 +21,4 @@ test.o: ../src/testContactmanagement.cpp
 clean:
 	rm ../obj/*.o ../bin/*.exe 
 
-# test: ../../ToolsReport/CUnit/testprogram.cpp ../../ToolsReport/CUnit/func.cpp
-# 	g++ -o ../../ToolsReport/CUnit/test.exe ../../ToolsReport/CUnit/testprogram.cpp ../../ToolsReport/CUnit/func.cpp -lcunit
-# 	../../ToolsReport/CUnit/test.exe > ../../ToolsReport/CUnit/cunitReport.txt
+
