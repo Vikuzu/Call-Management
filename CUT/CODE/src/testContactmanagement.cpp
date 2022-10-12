@@ -13,10 +13,9 @@
 #include <cppunit/CompilerOutputter.h>
 #include <cppunit/XmlOutputter.h>
 #include <netinet/in.h>
-
-#include "../header/adminMenu.h"
-#include "../header/admin.h"
-#include "../header/user.h"
+#include <adminMenu.h>
+#include <admin.h>
+#include <user.h>
 
 using namespace std;
 using namespace CppUnit;
