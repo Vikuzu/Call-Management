@@ -4,10 +4,9 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-#include "../header/contacts.h"
-#include "../header/personalContacts.h"
-#include "../header/businessContacts.h"
+#include <contacts.h>
+#include <personalContacts.h>
+#include <businessContacts.h>
 
 class User
 {	
