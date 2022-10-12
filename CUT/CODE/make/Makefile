@@ -1,24 +1,41 @@
+GCC = g++
+CFLAGS = -c -g -Wall
+LFLAGS = -o
+SRC = ../src
+BIN = ../bin
+OBJ = ../obj
+
 application: contactsTester.o userMenu.o user.o personalContacts.o businessContacts.o adminMenu.o admin.o 
-	g++ -o ../bin/contactsManagement.exe ../obj/contactsTester.o ../obj/userMenu.o ../obj/user.o ../obj/personalContacts.o  ../obj/businessContacts.o ../obj/adminMenu.o ../obj/admin.o 
+	$(GCC) $(LFLAGS) $(BIN)/contactsManagement.exe $(OBJ)/contactsTester.o $(OBJ)/userMenu.o $(OBJ)/user.o $(OBJ)/personalContacts.o  $(OBJ)/businessContacts.o $(OBJ)/adminMenu.o $(OBJ)/admin.o 
+
 test: test.o user.o personalContacts.o businessContacts.o adminMenu.o user.o admin.o
-	g++ -o ../bin/testApp.exe ../obj/testContactmanagement.o ../obj/user.o ../obj/personalContacts.o  ../obj/businessContacts.o ../obj/adminMenu.o ../obj/admin.o -lcppunit
-contactsTester.o: ../src/contactsTester.cpp
-	g++ -o ../obj/contactsTester.o ../src/contactsTester.cpp -c
-user.o: ../src/user.cpp
-	g++ -o ../obj/user.o ../src/user.cpp -c
-userMenu.o: ../src/userMenu.cpp
-	g++ -o ../obj/userMenu.o ../src/userMenu.cpp -c
-admin.o: ../src/admin.cpp
-	g++ -o ../obj/admin.o ../src/admin.cpp -c
-adminMenu.o: ../src/adminMenu.cpp
-	g++ -o ../obj/adminMenu.o ../src/adminMenu.cpp -c
-personalContacts.o: ../src/personalContacts.cpp
-	g++ -o ../obj/personalContacts.o ../src/personalContacts.cpp -c
-businessContacts.o: ../src/businessContacts.cpp
-	g++ -o ../obj/businessContacts.o ../src/businessContacts.cpp -c
-test.o: ../src/testContactmanagement.cpp 
-	g++ -o ../obj/testContactmanagement.o ../src/testContactmanagement.cpp -c 
+	$(GCC) $(LFLAGS) $(BIN)/testApp.exe $(OBJ)/testContactmanagement.o $(OBJ)/user.o $(OBJ)/personalContacts.o  $(OBJ)/businessContacts.o $(OBJ)/adminMenu.o $(OBJ)/admin.o -lcppunit
+
+contactsTester.o: $(SRC)/contactsTester.cpp
+	$(GCC) $(LFLAGS) $(OBJ)/contactsTester.o $(SRC)/contactsTester.cpp $(CFLAGS)
+
+user.o: $(SRC)/user.cpp
+	$(GCC) $(LFLAGS) $(OBJ)/user.o $(SRC)/user.cpp $(CFLAGS)
+
+userMenu.o: $(SRC)/userMenu.cpp
+	$(GCC) $(LFLAGS) $(OBJ)/userMenu.o $(SRC)/userMenu.cpp $(CFLAGS)
+
+admin.o: $(SRC)/admin.cpp
+	$(GCC) $(LFLAGS) $(OBJ)/admin.o $(SRC)/admin.cpp $(CFLAGS)
+
+adminMenu.o: $(SRC)/adminMenu.cpp
+	$(GCC) $(LFLAGS) $(OBJ)/adminMenu.o $(SRC)/adminMenu.cpp $(CFLAGS)
+
+personalContacts.o: $(SRC)/personalContacts.cpp
+	$(GCC) $(LFLAGS) $(OBJ)/personalContacts.o $(SRC)/personalContacts.cpp $(CFLAGS)
+
+businessContacts.o: $(SRC)/businessContacts.cpp
+	$(GCC) $(LFLAGS) $(OBJ)/businessContacts.o $(SRC)/businessContacts.cpp $(CFLAGS)
+
+test.o: $(SRC)/testContactmanagement.cpp 
+	$(GCC) $(LFLAGS) $(OBJ)/testContactmanagement.o $(SRC)/testContactmanagement.cpp $(CFLAGS) 
+
 clean:
-	rm ../obj/*.o ../bin/*.exe 
+	rm $(OBJ)/*.o $(BIN)/*.exe 
 
 
