@@ -8,13 +8,7 @@ using namespace std;
 #include "../header/contacts.h"
 
 class Personal : public Contact
-{
-	protected:
-		string address;
-		string wPhone;
-		string birthDate;
-		string emergencyCt;
-		
+{		
 	public:
 		Personal();
 		void setAddress(string );
@@ -29,6 +23,12 @@ class Personal : public Contact
 		void editContact();
 		void displayContacts();
 		~Personal();
+	
+	protected:
+		string address;
+		string wPhone;
+		string birthDate;
+		string emergencyCt;
 };
 
 #endif
