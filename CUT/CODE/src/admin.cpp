@@ -3,11 +3,9 @@
 #include <cstring>
 #include <fstream>
 #include <map>
-#include <bits/stdc++.h>
-
+#include <sstream>
 using namespace std;
-
-#include "../header/admin.h"
+#include <admin.h>
 
 #define success 1
 #define failure 0
