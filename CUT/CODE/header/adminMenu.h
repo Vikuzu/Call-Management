@@ -4,8 +4,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-#include "../header/admin.h"
+#include <admin.h>
 
 int checkAdmin(string );
 void admin(string );
