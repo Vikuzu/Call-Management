@@ -9,10 +9,6 @@ using namespace std;
 
 class Business : public Contact
 {
-	protected:
-		string company;
-		string designation;
-		string website;
 	public:
 		Business();
 		void setCompany(string );
@@ -25,6 +21,11 @@ class Business : public Contact
 		void editContact();
 		void displayContacts();
 		~Business();
+	
+	protected:
+		string company;
+		string designation;
+		string website;
 };
 
 #endif
