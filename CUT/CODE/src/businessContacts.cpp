@@ -4,10 +4,8 @@
 #include <fstream>
 #include <map>
 #include <sstream>
-
+#include <businessContacts.h>
 using namespace std;
-
-#include "../header/businessContacts.h"
 
 #define success 1
 #define failure 0
