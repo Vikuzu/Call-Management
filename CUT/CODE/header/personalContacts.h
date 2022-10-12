@@ -4,8 +4,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-#include "../header/contacts.h"
+#include <contacts.h>
 
 class Personal : public Contact
 {		
