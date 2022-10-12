@@ -4,8 +4,7 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-#include "../header/user.h"
+#include <user.h>
 
 int checkUser(string );
 void user(string );
