@@ -7,8 +7,6 @@ using namespace std;
 
 class Admin
 {
-	map <string, string> udmap;
-	
 	public:
         	void loadUserdatabase();
 		void addUser();
@@ -16,6 +14,8 @@ class Admin
 		void deleteUser();
 		void listUsers();
 		void adminLogout();
+	private:
+		map <string, string> udmap;
 };
 
 #endif
