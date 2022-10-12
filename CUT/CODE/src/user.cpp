@@ -3,9 +3,9 @@
 #include <cstring>
 #include <fstream>
 #include <map>
-#include <bits/stdc++.h>
+#include <sstream>
 using namespace std;
-#include "../header/user.h"
+#include <user.h>
 #define success 1
 #define failure 0
 #define err -1
