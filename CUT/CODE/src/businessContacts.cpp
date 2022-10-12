@@ -3,7 +3,7 @@
 #include <cstring>
 #include <fstream>
 #include <map>
-#include <bits/stdc++.h>
+#include <sstream>
 
 using namespace std;
 
