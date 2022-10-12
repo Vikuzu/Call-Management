@@ -7,15 +7,6 @@ using namespace std;
 
 class Contact
 {
-	protected:
-		char type;
-		string firstName;
-		string lastName;
-		string phone1;
-		string phone2;
-		string phone3;
-		string email1;
-		string email2;
 	public:
 		static int contactId;
 		Contact()                    { ++contactId; }
@@ -37,14 +28,16 @@ class Contact
 		string getPhone3()    { return phone3; }
 		string getEmail1()    { return email1; }
 		string getEmail2()    { return email2; }
+	
+	protected:
+		char type;
+		string firstName;
+		string lastName;
+		string phone1;
+		string phone2;
+		string phone3;
+		string email1;
+		string email2;
 };
 
 #endif
-
-
-			
-
-
-
-
-
