@@ -261,8 +261,7 @@ void User::listBusinesscontacts()
 	map<int, Business>::iterator itb;	
 	for(itb = bmap.begin(); itb != bmap.end(); ++itb)			
 		cout << "\n\n" << itb->first << " | " << itb->second.getFirstname() << " | " << itb->second.getLastname() << " | " << itb->second.getPhone1() << " | " << itb->second.getPhone2() << " | "  << itb->second.getPhone3() << " | " << itb->second.getEmail1() << " | " << itb->second.getEmail2() << " | "  << itb->second.getCompany() << " | " << itb->second.getDesignation() << " | " << itb->second.getWebsite();
-	cout << "\n\nPress enter key to return: ";
-	getchar();
+	cout << "\n\nPress enter key to return: "; getchar();
 }
 void User::userLogout(string username)
 {
